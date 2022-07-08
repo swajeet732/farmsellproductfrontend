@@ -1,0 +1,36 @@
+img{
+    height: 320px;
+    justify-content: center;
+    width:300px;
+}
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 677px;
+}
+
+ul.pagination
+{height: 700px;
+}
+.card{
+    height:7oopx; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+
+*{
+    margin:0;
+    
+    
+}
+   
+
+#navbar{
+    background-color: rgb(193, 233, 229);
+     
+    padding:8px 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul {
+    height: 10px;
+}
+h2{
+    text-align: center;
+    
+}
+
+
+
+#navbar li{
+    list-style:none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 7px 11px;
+    font-size: 20px;
+    color: black;
+}
+a{
+    margin: 0px;
+}
+#navbar li a:hover{
+    color: white;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: center/cover no-repeat url("/static/gg.jpg.jpg");
+    height: 360px;
+    background-color: red ;
+    font-size: 3rem;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#missionSection h3{
+    text-align: center;
+    justify-content: center;
+    padding-top: 12px;
+    height: 300px;
+}
+section#misionSection {
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+h3 {
+    display: block;
+    font-size: 40px;
+    margin: 5px;
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+#sponsorsSection{
+    height: 320px;
+    background-color: rgb(212, 144, 155);
+    text-align: center;
+    justify-content: center;
+    font-size: 2.7rem;
+}
+#sponsorsSection h2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 12px;
+    font-size: 2.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#sponsors{
+    height:120px;
+    max-width: 1000px;
+    margin:auto;
+}
+img.spImage {
+    height: 150px;
+    margin:45px 5px;
+    padding:5px 5px;
+
+}
+.card{
+    display:inline-block;
+    border:2px solid black;
+    border-radius:10px;
+    width:30%;
+    margin: 23px 22px;
+    height:209px;
+}
+.card h4{
+    font-size: 2rem;
+    
+
+}
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:2px 2px;
+    padding:2px 8px;
+}
+.card-img img{
+    height: 135px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#footer{
+    height: 50px;
+    background-color: black;
+}
+
+footer#footer
+{
+    color: blanchedalmond;
+    text-align: center;
+    justify-content: center;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}

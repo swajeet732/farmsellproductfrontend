@@ -1,0 +1,139 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+ style
+      include ../static/style.css
+      include ../static/styleshopping.css
+
+block content 
+
+ 
+ div.container-fluid
+   
+     div.card
+      h2 card (2times)
+        img(src="/static/apple.jpg")
+        
+        div.row
+           div.card-title
+             h1 Apples 
+              p A1 Quality   
+
+              div.col-6
+               ul.pagination  
+                li.page-item
+                 button.page-link 
+                   
+                    i.fas-fa-minus 
+                    button(class=fas-fa-minus)
+                     | -
+                     li.page-items 
+                       input(type="text" name="" class="page-link" value="0" id="textbox")
+
+                li.page-items
+                 button.page-link 
+                   
+                     i.fas-fa-plus
+                     button(class=fas-fa-plus)
+                      | +
+                      li.page-items 
+                        input(type="text" name="" class="page-link" value="0" id="textbox")
+
+                      div.col-8 
+                         h3 
+                           span.itemval= 0.00                  
+    
+  
+ div.container-fluid
+   
+     div.card
+      h2 card (2times)
+        img(src="/static/strawberries.jpg")
+        
+        div.row
+           div.card-title
+             h1 Apples 
+              p A1 Quality   
+
+              div.col-6
+               ul.pagination  
+                li.page-item
+                 button.page-link 
+                   
+                    i.fas-fa-minus 
+                    button(class=fas-fa-minus)
+                     | -
+                     li.page-items 
+                       input(type="text" name="" class="page-link" value="0" id="textbox")
+
+                li.page-items
+                 button.page-link 
+                   
+                     i.fas-fa-plus
+                     button(class=fas-fa-plus)
+                      | +
+                      li.page-items 
+                        input(type="text" name="" class="page-link" value="0" id="textbox")
+
+                      div.col-8 
+                         h3 
+                           span.itemval= 0.00  
+
+
+ div.container-fluid
+   
+     div.card
+      h2 card (2times)
+        img(src="/static/tomato.jpg")
+        
+        div.row
+           div.card-title
+             h1 Apples 
+              p A1 Quality   
+
+              div.col-6
+               ul.pagination  
+                li.page-item
+                 button.page-link 
+                   
+                    i.fas-fa-minus 
+                    button(class=fas-fa-minus)
+                     | -
+                     li.page-items 
+                       input(type="text" name="" class="page-link" value="0" id="textbox")
+
+                li.page-items
+                 button.page-link 
+                   
+                     i.fas-fa-plus
+                     button(class=fas-fa-plus)
+                      | +
+                      li.page-items 
+                        input(type="text" name="" class="page-link" value="0" id="textbox")
+
+                      div.col-8 
+                         h3 
+                           span.itemval= 0.00                  
+    
+                            
+
+
+
+              div.total_amt
+                #span Total cart amt = 0.00                               
+    
+       
+                  
+                    
+                   
+
+
+                  
+
+ 
+   
+              
+

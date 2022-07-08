@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+    margin:12px;
+    justify-content: center;
+    background:center/cover no-repeat url("static/contact.jpg") ;
+
+}
+.myform{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+
+
+}
+.myinput {
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    padding:9px;
+    margin:10px 402Px;
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    height: 20px;
+    WIDTH:10%;
+    margin:12px 625px;
+    color: blue;
+    background-color: crimson;
+  
+}
+   
